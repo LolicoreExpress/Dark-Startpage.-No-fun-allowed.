@@ -1,4 +1,10 @@
 # Chrome-Startpage
 Projet de startpage.
 
-On va bientôt inclure les liens cliquables vers des favoris :)
+Créée sans Javascript ni PHP.
+Lightweight.
+
+Couleurs sombres pour un confort visuel maximal ;)
+
+Lien direct pour un ajout en page d'accueil: 
+lolicore.hol.es
