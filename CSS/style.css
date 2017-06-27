@@ -14,7 +14,6 @@ body {
   background-color: #14171b;
   border-style: none;
   color: white;
-
 }
 
 .searchbox:focus {
@@ -32,8 +31,29 @@ body {
 }
 
 #clockbox {
-  margin-top: 130px;
+  margin-top: 215px;
   font-size: 8em;
   text-align: center;
   color: #14171b;
+}
+
+table {
+  margin-top: 85px;
+  width: 45%;
+  height: 200px;
+}
+
+td {
+  width: 33%;
+  font-size: 2em;
+  text-align: center;
+}
+
+td:hover {
+  background-color: #a0293d;
+}
+
+a, a:visited {
+  color: #14171b;
+  text-decoration: none;
 }
