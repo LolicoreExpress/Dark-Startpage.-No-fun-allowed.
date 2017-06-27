@@ -1,5 +1,4 @@
 <DOCTYPE! html>
-
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -8,34 +7,28 @@
   <link rel="stylesheet" href="CSS/responsive.css">
   <title>@Start</title>
 </head>
-
 <body>
-  
   <div id="clockbox">
     <script type="text/javascript">
     function GetClock(){
       var d=new Date();
-      var nhour=d.getHours(),nmin=d.getMinutes();
+      var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
       if(nmin<=9) nmin="0"+nmin
-      
-      document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+"";
+      if(nsec<=9) nsec="0"+nsec
+      document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+":"+nsec+"";
     }
-    
     window.onload=function(){
       GetClock();
       setInterval(GetClock,1000);
     }
     </script>
   </div>
-  
-  
   <div id="searchDiv">
     <form method="get" action="http://www.google.com/search" class="formSearch">
       <input type="search" autocomplete="off" placeholder="  Search" name="q" class="searchbox">
       <input type="submit" value="search" class="submitButton">
     </form>
   </div>
-  
   <center><table>
     <tr>
       <td><a href="https://www.reddit.com">Reddit</a></td>
@@ -52,7 +45,5 @@
       <td><a href="https://inbox.google.com/u/0/?pli=1">Inbox</a></td>
       <td><a href="https://github.com/LolicoreExpress">GitHub</a></td>
     </tr>
-    
   </table></center>
-  
 </body>
