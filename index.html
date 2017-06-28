@@ -1,13 +1,17 @@
 <DOCTYPE! html>
+
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/normalize.css">
   <link rel="stylesheet" href="CSS/responsive.css">
   <title>@Start</title>
 </head>
+
 <body>
+
   <div id="clockbox">
     <script type="text/javascript">
     function GetClock(){
@@ -15,20 +19,25 @@
       var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
       if(nmin<=9) nmin="0"+nmin
       if(nsec<=9) nsec="0"+nsec
+
       document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+":"+nsec+"";
     }
+
     window.onload=function(){
       GetClock();
       setInterval(GetClock,1000);
     }
     </script>
   </div>
-  <div id="searchDiv">
+
+
+  <div class="searchContainer">
     <form method="get" action="http://www.google.com/search" class="formSearch">
-      <input type="search" autocomplete="off" placeholder="  Search" name="q" class="searchbox">
-      <input type="submit" value="search" class="submitButton">
+      <span class="icon"><i class="fa fa-search"></i></span>
+      <input type="search" autocomplete="off"  name="q" class="searchbox">
     </form>
   </div>
+
   <center><table>
     <tr>
       <td><a href="https://www.reddit.com">Reddit</a></td>
@@ -41,9 +50,11 @@
       <td><a href="https://www.twitch.tv/directory/following">Twitch</a></td>
     </tr>
     <tr>
-      <td><a href="https://myanimelist.net/animelist/Stilnox&show=0&order=4">MyAnimeList</a></td>
+      <td><a href="https://myanimelist.net/animelist/Stilnox&show=0&order=4">MAL</a></td>
       <td><a href="https://inbox.google.com/u/0/?pli=1">Inbox</a></td>
       <td><a href="https://github.com/LolicoreExpress">GitHub</a></td>
     </tr>
+
   </table></center>
+
 </body>
