@@ -6,17 +6,17 @@ body {
 
 /****** CLOCK ******/
 #clockbox {
-  margin-top: 215px;
+  margin-top: 100px;
   font-size: 8em;
   text-align: center;
   color: #242831;
-  margin-bottom: 75px;
+  margin-bottom: 150px;
 }
 
 /****** SEARCHBAR ******/
 .formSearch .icon {
   position: absolute;
-  top: 479px;
+  top: 438px;
   margin-left: 17px;
   margin-top: 17px;
   z-index: 1;
@@ -51,15 +51,14 @@ body {
   transition: box-shadow 0.20s ease-out;
 }
 
-/***** LINKS ******/
+/***** LINKS TABLE ******/
 table {
-  margin-top: 95px;
-  width: 45%;
+  margin-top: 80px;
+  width: 47%;
   height: 200px;
 }
 
 td {
-  width: 33%;
   font-size: 2em;
   text-align: center;
   transition: background 0.30s ease-in;
@@ -73,4 +72,6 @@ td:hover {
 a, a:visited {
   color: #242831;
   text-decoration: none;
+  padding: 12px;
+  display: block;
 }
