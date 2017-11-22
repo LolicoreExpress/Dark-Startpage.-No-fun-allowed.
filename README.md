@@ -1,10 +1,13 @@
 # Chrome-Startpage
-Projet de startpage.
+First startpage project for me.
 
-Créée sans Javascript ni PHP.
-Lightweight.
+Nothing but HTML / CSS and tad bit Javascript for the clock.
 
-Couleurs sombres pour un confort visuel maximal ;)
+Dark colors for a non-aggressive experience and late night browsing.
 
-Lien direct pour un ajout en page d'accueil: 
+Direct link to where it is hosted, you can use as is if you want or download it.
 http://www.lolicore.hol.es
+
+To change the links to your own, open the index.html file, go down to where the links are listed and change the URL and the name associated to them.
+
+Enjoy :)
